@@ -8,19 +8,20 @@ _For people who enjoy playing word puzzles but are too lazy to move their hands 
 
 ![Screenshot](http://oi63.tinypic.com/2ajwadg.jpg "Screenshot during game play")
 
-##Installation & Requirements
+##Requirements
+- npm (latest)
+- node (latest)
+
+Also, the clients need to play the game in **Google Chrome Browser**. We do not support any other browsers at the moment.
+
+##Installation
 
 ```bash
-sudo apt-get install npm
-npm install node -g
 git clone https://github.com/CodeCorp/Voizzle.git
 cd Voizzle
 npm install
 node server.js
 ```
-If you run into a problem in any of these steps, use `sudo` followed by the command
-
-Also, the clients need to play the game in **Google Chrome Browser**. We do not support any other browsers at the moment.
 
 ##Game Play
 To start a new game press New Game button after entering the puzzle number in the text field beside the New Game button.
