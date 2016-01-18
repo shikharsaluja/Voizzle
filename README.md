@@ -8,9 +8,7 @@ _For people who enjoy playing word puzzles but are too lazy to move their hands 
 
 ![Screenshot](http://oi63.tinypic.com/2ajwadg.jpg "Screenshot during game play")
 
-##Installation
-The dependencies for server and client. How to install them
-
+##Installation & Requirements
 
 ```bash
 sudo apt-get install npm
@@ -20,9 +18,9 @@ cd Voizzle
 npm install
 node server.js
 ```
-
-
 If you run into a problem in any of these steps, use `sudo` followed by the command
+
+Also, the clients need to play the game in **Google Chrome Browser**. We do not support any other browsers at the moment.
 
 ##Game Play
 To start a new game press New Game button after entering the puzzle number in the text field beside the New Game button.
@@ -34,6 +32,10 @@ The clients are randomly alloted a color (yellow/green) and the alloted color is
 The game begins after you press the New Game button and the timer in the right side starts. Speak a word while the app is listening and watch it get highlighted in the puzzle with the colour alloted to you while your opponents words are highlighted with a different colour. 
 
 The aim is to find maximum number of words before the timer ends.
+
+**Cheat:**
+If your word is not getting recognised because of the pronunciation, you can speak phrase containing that word.
+*For example, if you speak 'ate' the game may recognise it as '8' or 'eight', so instead try speaking a phrase like "I 'ate' an apple".Hence the app will search for all the words in the phrase namely 'I','ate','an','apple' which includes the required word 'ate'.*
 
 
 
